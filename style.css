@@ -53,10 +53,12 @@ header {
 
 /* Most Searched Bike  */
 .btn-view{
- width: 268px;
+ width: 168px;
   height: 44px;
   background-image: linear-gradient(#FFB75E,#F37335);
   border-radius: 5px;
   color: white;
   border: none;
+  text-align: center;
 }
+
