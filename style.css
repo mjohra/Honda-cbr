@@ -1,5 +1,18 @@
+/* Font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* common style or utilities */
+* {
+  margin: 0px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
 /* header section style  */
 header {
+  font-family: "Poppins", sans-serif;
   background-color: #264653;
 }
 .bike-bg p {
@@ -18,6 +31,12 @@ header {
   border-radius: 5px;
   color: white;
   border: none;
+}
+.btn-bike:hover {
+  background: #264653;
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
 }
 
 /* featured bike  */
@@ -52,13 +71,19 @@ header {
 }
 
 /* Most Searched Bike  */
-.btn-view{
- width: 168px;
+.btn-view {
+  width: 168px;
   height: 44px;
-  background-image: linear-gradient(#FFB75E,#F37335);
+  background-image: linear-gradient(#ffb75e, #f37335);
   border-radius: 5px;
   color: white;
   border: none;
   text-align: center;
 }
 
+.btn-view:hover {
+  background: white;
+  border: 1px solid #f37335;
+  color:#F37335;
+  cursor: pointer;
+}
